@@ -1,4 +1,4 @@
-package com.example.roomsiswa.Tampilan.Theme
+package com.example.roomsiswa.Tampilan.theme
 
 import android.app.Activity
 import android.os.Build
