@@ -1,4 +1,4 @@
-package com.example.roomsiswa.ui.Theme
+package com.example.roomsiswa.Tampilan.Theme
 
 import androidx.compose.ui.graphics.Color
 
