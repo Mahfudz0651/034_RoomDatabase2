@@ -1,6 +1,6 @@
 package com.example.roomsiswa.navigasi
 
-interface DestinasiNavigai {
+interface DestinasiNavigasi {
 
     val route: String
 

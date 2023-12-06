@@ -26,11 +26,11 @@ import com.example.roomsiswa.model.DetailSiswa
 import com.example.roomsiswa.model.EntryViewModel
 import com.example.roomsiswa.model.PenyediaViewModel
 import com.example.roomsiswa.model.UIStateSiswa
-import com.example.roomsiswa.navigasi.DestinasiNavigai
+import com.example.roomsiswa.navigasi.DestinasiNavigasi
 import com.example.roomsiswa.navigasi.SiswaTopAppBar
 import kotlinx.coroutines.launch
 
-object DestinasiEntry: DestinasiNavigai {
+object DestinasiEntry: DestinasiNavigasi {
     override val route = "item_entry"
     override val titleRes = R.string.entry_siswa
 }
