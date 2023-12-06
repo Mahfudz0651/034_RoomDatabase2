@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.example.roomsiswa.R
 
 @Composable
 fun SiswaApp(navController: NavController= rememberNavController()){
