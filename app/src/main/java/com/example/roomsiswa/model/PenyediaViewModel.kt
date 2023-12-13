@@ -16,9 +16,20 @@ object PenyediaViewModel {
         initializer {
             EntryViewModel(aplikasiSiswa().container.repositoriSiswa)
         }
+        initializer {
+            DetailsViewModel(
+                createSavedStateHandle(),
+                aplikasiSiswa().container.repositoriSiswa,
+            )
+        }
 
+        initializer {
+            EditViewModel(
+                createSavedStateHandle(),
+                aplikasiSiswa().container.repositoriSiswa,
+            )
+        }
     }
-}
 
-fun  CreationExtras.aplikasiSiswa():AplikasiSiswa =
-    (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as AplikasiSiswa)
+    fun CreationExtras.aplikasiSiswa():AplikasiSiswa =
+        (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as AplikasiSiswa)}
